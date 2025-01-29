@@ -1,6 +1,7 @@
 ui <- page_sidebar(
   title = "Simple Scatter Plot",
   sidebar = sidebar(
+    p(paste0("File location: ", config$filepath)),
     selectInput(
       "variable",
       "Select variable to plot:",
